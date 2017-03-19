@@ -1,0 +1,19 @@
+{
+  "name": "the-space-ace",
+  "version": "1.0.0",
+  "description": "outer space",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emazing1/The-Space-Ace-.git"
+  },
+  "author": "Eric Springfield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emazing1/The-Space-Ace-/issues"
+  },
+  "homepage": "https://github.com/Emazing1/The-Space-Ace-#readme"
+}
