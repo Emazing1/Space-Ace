@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Emazing1/The-Space-Ace-/issues"
   },
-  "homepage": "https://github.com/Emazing1/The-Space-Ace-#readme"
+  "homepage": "https://github.com/Emazing1/The-Space-Ace-#readme",
+  "dependencies": {
+    "httpdispatcher": "^2.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^1.1.0"
+  }
 }
