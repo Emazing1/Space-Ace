@@ -1,0 +1,2 @@
+mongoose.model('MyModel', mySchema);
+// mySchema is <a Schema>
