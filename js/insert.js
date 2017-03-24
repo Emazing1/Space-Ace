@@ -16,3 +16,11 @@ var score = {
 	score: 'number',
 	name: 'Eric'
 }
+
+connection.query('insert into score ?', score, function(err, result){
+	if (err) {
+		console.error(err);
+		return;
+	}
+		console.err(result);
+});
