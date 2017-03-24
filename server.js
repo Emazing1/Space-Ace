@@ -25,6 +25,12 @@ mongoose.Promise = Promise;
 
 //mongoose.connect
 
+// Mongoose Database Config
+mongoose.connect("mongodb://heroku_m380vgbx:3b7qep1g46hmck7ta86til6grq@ds141450.mlab.com:41450/heroku_m380vgbx");
+
+//mongoose.connect("mongodb://localhost/leaderboard");
+
+
 var db = mongoose.connection;
 
 db.on("error", function(error) {
