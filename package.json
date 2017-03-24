@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/Emazing1/The-Space-Ace-#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.17.1",
+    "connect-flash": "^0.1.1",
     "express": "^4.15.2",
     "httpdispatcher": "^2.0.1",
     "method-override": "^2.3.7",
