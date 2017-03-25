@@ -49,8 +49,8 @@ app.use(bodyParser.json({ type: 'application/*+json' }));
 app.use(bodyParser.raw({ type: 'application/vnd.custom-type' }));
 
 //Express
-app.engine("ejs", exphbs({ defaultLayout: "main" }));
-app.set("view engine", "ejs");
+//app.engine("ejs", exphbs({ defaultLayout: "main" }));
+//app.set("view engine", "ejs");
 
 // method override
 app.use(methodOverride("_method"));
